@@ -1,6 +1,6 @@
 import React from "react";
 
 const Library = () => {
-  return <div>library</div>;
+  return <div className="screen-container">L</div>;
 };
 export default Library;
