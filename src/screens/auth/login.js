@@ -11,7 +11,7 @@ export default function Login() {
         className="logo"
       />
       <a href={loginEndpoint}>
-        <div className="login-btn">LOG IN</div>
+        <div className="login-btn">Log In</div>
       </a>
     </div>
   );
