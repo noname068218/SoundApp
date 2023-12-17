@@ -4,7 +4,7 @@ const Library = () => {
   const [playLists, setPlayLists] = useState(null);
 
   useEffect(() => {
-    APIKit.get("me/playlists").then(function (response) {
+    APIKit.get("/me/playlists").then(function (response) {
       setPlayLists(response.data.items);
       console.log(response.data.items);
     });
