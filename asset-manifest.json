@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SoundApp/static/css/main.fba18f5e.css",
+    "main.js": "/SoundApp/static/js/main.ac2eacc3.js",
+    "static/js/787.9c6c73e8.chunk.js": "/SoundApp/static/js/787.9c6c73e8.chunk.js",
+    "index.html": "/SoundApp/index.html",
+    "main.fba18f5e.css.map": "/SoundApp/static/css/main.fba18f5e.css.map",
+    "main.ac2eacc3.js.map": "/SoundApp/static/js/main.ac2eacc3.js.map",
+    "787.9c6c73e8.chunk.js.map": "/SoundApp/static/js/787.9c6c73e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fba18f5e.css",
+    "static/js/main.ac2eacc3.js"
+  ]
+}
