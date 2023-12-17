@@ -14,14 +14,12 @@ export const Sidebar = () => {
   );
   useEffect(() => {
     apiClient.get("me").then((response) => {
-      console.log(response);
       if (response.data.images && response.data.images.length > 0) {
         setImage(response.data.images[0].url);
       } else {
         setImage(
           "https://images.rawpixel.com/image_png_1100/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3BmLWljb240LWppcjIwNjItcG9yLWwtam9iNzg4LnBuZw.png"
         );
-        console.log("no image");
       }
     });
   }, []);
